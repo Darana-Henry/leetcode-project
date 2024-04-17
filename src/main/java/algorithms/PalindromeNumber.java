@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/palindrome-number/
+package algorithms;//https://leetcode.com/problems/palindrome-number/
 
 public class PalindromeNumber {
 
