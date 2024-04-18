@@ -61,3 +61,5 @@ java_pid*
 build
 
 **/test-output/
+
+*.xml
