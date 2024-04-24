@@ -1,4 +1,4 @@
-package algorithms;//https://leetcode.com/problems/valid-parentheses/description/
+package algorithms.easy;//https://leetcode.com/problems/valid-parentheses/description/
 
 import java.util.Stack;
 

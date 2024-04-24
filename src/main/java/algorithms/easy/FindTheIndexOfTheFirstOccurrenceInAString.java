@@ -1,4 +1,4 @@
-package algorithms; //https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
+package algorithms.easy; //https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
 
 public class FindTheIndexOfTheFirstOccurrenceInAString {
 

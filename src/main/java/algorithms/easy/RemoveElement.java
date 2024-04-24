@@ -1,4 +1,4 @@
-package algorithms;//https://leetcode.com/problems/remove-element/submissions/1237917064/
+package algorithms.easy;//https://leetcode.com/problems/remove-element/submissions/1237917064/
 
 public class RemoveElement {
 

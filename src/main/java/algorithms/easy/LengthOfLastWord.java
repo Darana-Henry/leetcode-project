@@ -1,4 +1,4 @@
-package algorithms;//https://leetcode.com/problems/length-of-last-word/description/
+package algorithms.easy;//https://leetcode.com/problems/length-of-last-word/description/
 
 public class LengthOfLastWord {
 

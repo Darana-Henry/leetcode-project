@@ -1,4 +1,4 @@
-package algorithms;//https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+package algorithms.easy;//https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
 public class RemoveDuplicatesFromSortedArray {
 
