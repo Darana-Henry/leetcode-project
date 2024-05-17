@@ -22,6 +22,8 @@ public class ClientSemaphore {
                     server.logout();
                 } catch (InterruptedException e) {
                     throw new RuntimeException();
+                } finally {
+                    System.out.println("Out");
                 }
             });
         }
