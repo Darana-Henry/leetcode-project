@@ -7,10 +7,10 @@ import java.util.*;
 public class MaximumTwinSumOfALinkedList {
     public static void main(String[] args) {
         MaximumTwinSumOfALinkedList maxTwin = new MaximumTwinSumOfALinkedList();
+        System.out.println("Output:\t" + maxTwin.pairSumWithHashMap(
+                new ListNode(5, new ListNode(4, new ListNode(2, new ListNode(1))))));
         System.out.println("Output:\t" + maxTwin.pairSumWithStackAndQueue(
                 new ListNode(5, new ListNode(4, new ListNode(2, new ListNode(1))))));
-//        System.out.println("Output:\t" + maxTwin.pairSumWithHashMap(
-//                new ListNode(5, new ListNode(4, new ListNode(2, new ListNode(1))))));
         System.out.println("Output:\t" + maxTwin.pairSumWithDeque(
                 new ListNode(5, new ListNode(4, new ListNode(2, new ListNode(1))))));
     }
@@ -49,9 +49,10 @@ public class MaximumTwinSumOfALinkedList {
         }
 
         index = map.size();
+        int size = map.size();
         int maxSum = 0;
-        while (index > (map.size() / 2)) {
-            int sum = map.get(index) + map.get(map.size() - index);
+        while (index > (size / 2)) {
+            int sum = map.get(index - 1) + map.get(size - index);
             maxSum = Math.max(sum, maxSum);
             index--;
         }
