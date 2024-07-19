@@ -18,17 +18,29 @@ public class LuckyNumbersInAMatrix {
 
     public List<Integer> luckyNumbersViaContradiction(int[][] matrix) {
         List<Integer> output = new ArrayList<>();
-        int minMax = Integer.MIN_VALUE;
 
+        int rMinMax = Integer.MIN_VALUE;
         for (int[] row : matrix) {
             int min = Integer.MAX_VALUE;
 
             for (int num : row)
                 min = Math.min(num, min);
 
-            minMax = Math.max(minMax, min);
+            rMinMax = Math.max(rMinMax, min);
         }
-        output.add(minMax);
+
+        int cMaxMin = Integer.MAX_VALUE;
+        for (int col = 0; col < matrix[0].length; col++) {
+            int max = Integer.MIN_VALUE;
+            for (int row = 0; row < matrix.length; row++) {
+                max = Math.max(max, matrix[row][col]);
+            }
+            cMaxMin = Math.min(cMaxMin, max);
+        }
+
+        if (rMinMax == cMaxMin)
+            output.add(rMinMax);
+
         return output;
     }
 
