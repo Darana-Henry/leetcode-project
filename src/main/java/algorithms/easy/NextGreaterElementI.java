@@ -1,8 +1,6 @@
 //https://leetcode.com/problems/next-greater-element-i/
 package algorithms.easy;
 
-import algorithms.medium.DailyTemperatures;
-
 import java.util.HashMap;
 import java.util.Stack;
 
