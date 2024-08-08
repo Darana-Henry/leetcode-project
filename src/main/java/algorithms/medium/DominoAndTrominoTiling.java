@@ -9,6 +9,18 @@ public class DominoAndTrominoTiling {
     }
 
     public int numTilings(int n) {
-        return 1;
+        long[] dp = { 1, 0, 0, 0 };
+        int mod = (int) 1e9 + 7;
+
+        for (int i = 1; i <= n; i++) {
+            long[] newDP = new long[4];
+            newDP[0] = (dp[0] + dp[1] + dp[2] + dp[3]) % mod;
+            newDP[1] = (dp[2] + dp[3]) % mod;
+            newDP[2] = (dp[1] + dp[3]) % mod;
+            newDP[3] = dp[0];
+            dp = newDP;
+        }
+
+        return (int) dp[0];
     }
 }
