@@ -1,8 +1,6 @@
 //https://leetcode.com/problems/house-robber/description/
 package algorithms.medium;
 
-import algorithms.easy.LuckyNumbersInAMatrix;
-
 public class HouseRobber {
     public static void main(String[] args) {
         HouseRobber robber = new HouseRobber();
