@@ -1,8 +1,6 @@
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 package algorithms.medium;
 
-import algorithms.easy.FirstUniqueCharacterInAString;
-
 public class BestTimeToBuyAndSellStockII {
     public static void main(String[] args) {
         BestTimeToBuyAndSellStockII stock = new BestTimeToBuyAndSellStockII();

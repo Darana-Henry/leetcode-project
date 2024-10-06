@@ -1,8 +1,6 @@
 //https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/
 package algorithms.medium;
 
-import algorithms.easy.RangeSumQueryImmutable;
-
 import java.util.Arrays;
 
 public class SuccessfulPairsOfSpellsAndPotions {
@@ -25,10 +23,8 @@ public class SuccessfulPairsOfSpellsAndPotions {
 
             while (left <= right) {
                 int mid = left + (right - left) / 2;
-                if ((long) spells[i] * potions[mid] >= success)
-                    right = mid - 1;
-                else
-                    left = mid + 1;
+                if ((long) spells[i] * potions[mid] >= success) right = mid - 1;
+                else left = mid + 1;
             }
             pairs[i] = m - right - 1;
         }
