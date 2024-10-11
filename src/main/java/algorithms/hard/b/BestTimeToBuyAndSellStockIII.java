@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
-package algorithms.hard;
+package algorithms.hard.b;
 
 public class BestTimeToBuyAndSellStockIII {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/trapping-rain-water/
-package algorithms.hard;
+package algorithms.hard.t;
 
 import java.util.Stack;
 

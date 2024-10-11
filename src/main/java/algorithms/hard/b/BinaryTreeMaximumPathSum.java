@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/binary-tree-maximum-path-sum/
-package algorithms.hard;
+package algorithms.hard.b;
 
 import context.TreeNode;
 

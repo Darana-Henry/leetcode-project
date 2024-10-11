@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/text-justification/
-package algorithms.hard;
+package algorithms.hard.t;
 
 import java.util.List;
 import java.util.ArrayList;

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/patching-array/description/
-package algorithms.hard;
+package algorithms.hard.p;
 
 public class PatchingArray {
     public static void main(String[] args) {

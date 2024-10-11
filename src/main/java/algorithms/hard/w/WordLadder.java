@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/word-ladder/
-package algorithms.hard;
+package algorithms.hard.w;
 
 import java.util.*;
 

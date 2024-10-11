@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/word-search-ii/
-package algorithms.hard;
+package algorithms.hard.w;
 
 import java.util.ArrayList;
 import java.util.List;

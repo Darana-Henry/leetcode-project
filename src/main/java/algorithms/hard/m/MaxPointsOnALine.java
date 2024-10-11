@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/max-points-on-a-line/
-package algorithms.hard;
+package algorithms.hard.m;
 
 import java.util.HashMap;
 import java.util.Map;

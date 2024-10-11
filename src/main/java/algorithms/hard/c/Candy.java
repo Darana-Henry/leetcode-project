@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/candy/
-package algorithms.hard;
+package algorithms.hard.c;
 
 import java.util.Arrays;
 

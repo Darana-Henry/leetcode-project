@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/n-queens/
-package algorithms.hard;
+package algorithms.hard.n;
 
 import java.util.ArrayList;
 import java.util.Arrays;

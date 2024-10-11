@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
-package algorithms.hard;
+package algorithms.hard.b;
 
 
 public class BestTimeToBuyAndSellStockIV {
