@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/
-package algorithms.hard;
+package algorithms.hard.r;
 
 import context.DisjointSetUnion;
 

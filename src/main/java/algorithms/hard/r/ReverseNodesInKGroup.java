@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/reverse-nodes-in-k-group/
-package algorithms.hard;
+package algorithms.hard.r;
 
 import context.ListNode;
 

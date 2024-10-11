@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/median-of-two-sorted-arrays/
-package algorithms.hard;
+package algorithms.hard.m;
 
 public class MedianOfTwoSortedArrays {
     int[] nums1;

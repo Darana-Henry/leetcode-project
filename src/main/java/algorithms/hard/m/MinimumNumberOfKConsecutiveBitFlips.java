@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
-package algorithms.hard;
+package algorithms.hard.m;
 
 public class MinimumNumberOfKConsecutiveBitFlips {
     public static void main(String[] args) {

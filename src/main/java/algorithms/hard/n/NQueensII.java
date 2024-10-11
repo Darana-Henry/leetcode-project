@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/n-queens-ii/
-package algorithms.hard;
+package algorithms.hard.n;
 
 public class NQueensII {
     public static void main(String[] args) {

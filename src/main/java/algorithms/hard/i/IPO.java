@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/ipo/description/
-package algorithms.hard;
+package algorithms.hard.i;
 
 import java.util.PriorityQueue;
 

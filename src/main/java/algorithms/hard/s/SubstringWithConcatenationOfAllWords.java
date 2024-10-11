@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/substring-with-concatenation-of-all-words/
-package algorithms.hard;
+package algorithms.hard.s;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/minimum-window-substring/
-package algorithms.hard;
+package algorithms.hard.m;
 
 
 public class MinimumWindowSubstring {

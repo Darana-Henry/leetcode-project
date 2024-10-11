@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/merge-k-sorted-lists/
-package algorithms.hard;
+package algorithms.hard.m;
 
 import context.ListNode;
 

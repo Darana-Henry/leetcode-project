@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/basic-calculator/
-package algorithms.hard;
+package algorithms.hard.b;
 
 
 import java.util.Stack;

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/find-median-from-data-stream/
-package algorithms.hard;
+package algorithms.hard.f;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
