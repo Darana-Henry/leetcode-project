@@ -28,7 +28,6 @@ public class AllElementsInTwoBinarySearchTrees {
 
     public void dfs(TreeNode node) {
         if (node == null) return;
-
         answer.add(node.val);
         dfs(node.left);
         dfs(node.right);
